@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import ConnectionInfo from './Components/ConnectionInfo/ConnectionInfo.jsx'
+import VideoPlayer from './Components/VideoPlayer/VideoPlayer.jsx'
 import './App.css';
 
 function App() {
@@ -9,10 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <ConnectionInfo />
-      </header>
+        <VideoPlayer/>
     </div>
   );
 }
